@@ -34,7 +34,7 @@ jobs:
           # Name of the Azure Function App
           app-name: my-ps-function-app
           # Path to package or folder. *.zip or a folder to deploy
-          package: functions_deployment_1.zip
+          package: functions_deployment_2.zip
           publish-profile: ${{ secrets.WEBAPP_PUBLISH_PROFILE }}
           
          
